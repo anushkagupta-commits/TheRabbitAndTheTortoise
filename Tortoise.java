@@ -14,7 +14,7 @@ public class Tortoise implements Runnable {
     public Thread getTortoise() {
         return tortoise;
     }
-
+    
     @Override
     public void run() {
         for(int i = 0; i < MILESTONES; i++) {
