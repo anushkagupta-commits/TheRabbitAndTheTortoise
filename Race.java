@@ -1,6 +1,5 @@
 package main;
 
-
 import thread.rabbit.Rabbit;
 import thread.tortoise.Tortoise;
 
