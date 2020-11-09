@@ -2,7 +2,7 @@ package thread.tortoise;
 
 import javax.swing.*;
 
-public class Tortoise implements Runnable {
+public class Tortoise extends Runnable {
     private static final int MILESTONES = 5;
 
     private final Thread tortoise;
